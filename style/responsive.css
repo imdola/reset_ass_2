@@ -99,5 +99,20 @@ nav ul
 }
 /* ====================BMI Section Ends====================== */
 
+/* ====================Our Team Section Starts====================== */
+.team-heading
+{
+    font-size: 2.5rem;
+}
+.team-description
+{
+    padding: 0rem;
+}
+.team-img-container
+{
+    grid-template-columns: 1fr;
+}
+/* ====================Our Team Section Ends====================== */
+
     
 }
