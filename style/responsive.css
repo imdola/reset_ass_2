@@ -26,6 +26,22 @@ nav ul
 }
 /* ====================Banner Section Ends====================== */
 
+/* ====================Habits Section Ends====================== */
+
+.habit-heading
+{
+    font-size: 2rem;
+}
+.habit-description
+{
+    margin: 1rem 0rem;
+    font-size: 1.125rem;
+}
+.habit-img-container
+{
+    flex-direction: column;
+}
+/* ====================Habits Section Ends====================== */
 
     
 }

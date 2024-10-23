@@ -169,3 +169,46 @@ nav ul li
     cursor: pointer;
 }
 /* ====================Banner Section Ends====================== */
+
+/* ====================Habits Section Starts====================== */
+.habits
+{
+    text-align: center;
+    margin-top: 5rem;
+}
+.habit-heading
+{
+    font-size: 3rem;
+}
+.habit-description
+{
+    margin: 1rem 18rem;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.125rem;
+}
+.habit-img-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.habit-img img
+{
+    border-radius: 100%;
+}
+.habit-img h4
+{
+    margin: 0.625rem;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.habit-img p
+{
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.50);
+}
+/* ====================Habits Section Ends====================== */
