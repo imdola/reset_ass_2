@@ -43,5 +43,26 @@ nav ul
 }
 /* ====================Habits Section Ends====================== */
 
+/* ====================Run Section Starts====================== */
+.run-container
+{
+    flex-direction: column;
+    gap: 3rem;
+}
+.run-heading
+{
+    font-size: 1.8rem;
+    padding: 0rem;
+}
+.run-description
+{
+    padding-right: 0rem;
+}
+.run-img-container img
+{
+    width: 300px;
+}
+/* ====================Run Section Ends====================== */
+
     
 }

@@ -212,3 +212,34 @@ nav ul li
     color: rgba(255, 255, 255, 0.50);
 }
 /* ====================Habits Section Ends====================== */
+
+/* ====================Run Section Starts====================== */
+.run-container
+{
+    background-color: #222;
+    margin-top: 6rem;
+    padding: 1.8rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.run-heading
+{
+    font-size: 3rem;
+    padding-right: 18rem;
+}
+.run-description
+{
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.50);
+    padding-right: 18rem;
+    margin: 1rem 0rem;
+}
+.run-img-container img
+{
+    width: 400px;
+    border-radius: 20px;
+}
+/* ====================Run Section Ends====================== */
+
