@@ -64,5 +64,40 @@ nav ul
 }
 /* ====================Run Section Ends====================== */
 
+/* ====================BMI Section Starts====================== */
+.bmi-heading
+{
+    font-size: 2.5rem;
+}
+.bmi-description
+{
+    padding:0rem 0.625rem;
+}
+.bmi-contents
+{
+    flex-direction: column;
+    gap: 1.8rem;
+}
+.bmi-table table
+{
+    width: 18rem;
+}
+.bmi-form p
+{
+    width: 100%;
+    margin: 1rem 0rem;
+}
+.bmi-form form
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+}
+#colls
+{
+    grid-column: 1;
+}
+/* ====================BMI Section Ends====================== */
+
     
 }
