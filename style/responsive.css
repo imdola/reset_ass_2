@@ -114,5 +114,11 @@ nav ul
 }
 /* ====================Our Team Section Ends====================== */
 
-    
+/* ====================Footer Section Starts====================== */
+.footer-container
+{
+    grid-template-columns: 1fr;
 }
+/* ====================Footer Section Ends====================== */
+}
+    
