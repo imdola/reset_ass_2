@@ -9,5 +9,23 @@ nav ul
     display: block;
 }
 /* ====================Header Section Ends====================== */
+
+/* ====================Banner Section Starts====================== */
+.banner-container
+{
+    flex-direction: column;
+    gap: 1.8rem;
+}
+.banner-heading
+{
+    padding-right: 20px;
+    font-size: 3rem;
+}
+.banner-description{
+    padding-right: 20px;
+}
+/* ====================Banner Section Ends====================== */
+
+
     
 }

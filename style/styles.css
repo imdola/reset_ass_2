@@ -14,6 +14,31 @@ body
     color: #fff;
 }
 
+/* ==========Common Items================ */
+.btn
+{
+    padding: 12px 18px;
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 30px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.download
+{
+    padding: 12px 18px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 30px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
 /* ====================Header Section Starts====================== */
 header
 {
@@ -55,7 +80,92 @@ nav ul li
 {
     display: none;
 }
-.menu-bar i{
+.menu-bar i
+{
     font-size: 1.125rem;
 }
 /* ====================Header Section Ends====================== */
+
+
+.main-section
+{
+    width: 80%;
+    margin: 3rem auto;
+}
+/* ====================Banner Section Ends====================== */
+.banner-container 
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.banner-heading
+{
+    font-size: 4.4rem;
+    padding-right: 300px;
+}
+.banner-description
+{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.125rem;
+    margin: 1.25rem 0rem;
+    padding-right: 20rem;
+}
+.banner-content-btn
+{
+    display: flex;
+    gap: 1.5rem;
+}
+.banner-img-container
+{
+    position: relative;
+}
+.floating-card-1
+{
+    position: absolute;
+    top: 10.6rem;
+    right: -1.25rem;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 15px;
+}
+.floating-card-1 h3
+{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.floating-card-2
+{
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    position: absolute;
+    bottom: 6.25rem;
+    left: -3rem;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 15px;
+}
+.floating-card-2 h3
+{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.round
+{
+    position: relative;
+    background-color: #E6533C;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.round i
+{
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+}
+/* ====================Banner Section Ends====================== */
